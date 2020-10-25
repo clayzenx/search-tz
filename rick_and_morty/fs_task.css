@@ -1,0 +1,37 @@
+.fs-task {
+    position: fixed;
+    z-index: 101;
+    width: 100%;
+    background-color:rgb(245, 245, 245);
+    box-shadow: 5px 5px 10px rgb(230, 230, 230);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.fs-task__searchbar{
+    width: 250px;
+    margin-left: calc(50% - 125px);
+}
+
+.fs-tast__result{
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+
+    text-align: center;
+}
+
+.fs-task__amount{
+    color:rgb(70, 70, 70);
+    font-size: 14px;
+    display: inline
+
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+li {
+    list-style-type: none;
+}
